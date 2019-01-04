@@ -8,6 +8,16 @@ void Accounting(int *, int*, struct Acct[]);
 void Feeding(int*, int*);
 void Personality();
 void Divination();
+
+typedef struct _Accounting
+{
+	int money;
+	char type;
+	int year;
+	int month;
+	int day;
+}Acct;
+
 void Personality()
 {
 	printf("==================\n");

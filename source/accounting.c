@@ -17,6 +17,7 @@ typedef struct _Accounting
 	int month;
 	int day;
 }Acct;
+
 void Accounting(int *money, int *i, Acct myAcct[Acct_Data])
 {
 	int select;
